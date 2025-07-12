@@ -1,0 +1,47 @@
+# === FICHIERS COMPILÉS ===
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+
+# === FICHIERS DE BACKUP / TEMP ===
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# === DOSSIERS DE BUILD ===
+build/
+bin/
+Debug/
+Release/
+
+# === FICHIERS GÉNÉRÉS PAR L'ÉDITEUR ===
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.DS_Store
+
+# === FICHIERS DE TEST ===
+test_projet/*.exe
+tp*/**/*.exe
+
+# === IGNORER LES FICHIERS PDF PAR EXEMPLE ===
+*.pdf
+
+# === SI TU AJOUTES DU PYTHON OU DU TEX ===
+__pycache__/
+*.aux
+*.toc
+*.lof
+*.lot
+*.fls
+*.log
+*.out
